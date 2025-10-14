@@ -1,0 +1,192 @@
+{
+  "trained_at": "2025-10-09T14:17:49.137936Z",
+  "target": "Heart disease",
+  "numeric_columns": [
+    "Age",
+    "Resting Blood Pressure",
+    "Total Cholesterol",
+    "Fasting Blood Sugar",
+    "Maximum Heart Rate Achieved",
+    "ST Depression (oldpeak)",
+    "Number of Major Vessels",
+    "Body Mass Index (BMI)"
+  ],
+  "categorical_columns": [
+    "Sex",
+    "Chest Pain Type",
+    "Resting ECG Results",
+    "Exercise Induced Angina",
+    "Slope of ST Segment",
+    "Thallium Stress Test Result (thal)",
+    "Smoking Status",
+    "Angeo person or not"
+  ],
+  "categories": {
+    "Sex": [
+      "0",
+      "1"
+    ],
+    "Chest Pain Type": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "Resting ECG Results": [
+      "0",
+      "1",
+      "2"
+    ],
+    "Exercise Induced Angina": [
+      "0",
+      "1"
+    ],
+    "Slope of ST Segment": [
+      "0",
+      "1",
+      "2"
+    ],
+    "Thallium Stress Test Result (thal)": [
+      "0",
+      "1",
+      "2"
+    ],
+    "Smoking Status": [
+      "0",
+      "1",
+      "2"
+    ],
+    "Angeo person or not": [
+      "0",
+      "1"
+    ]
+  },
+  "metrics": {
+    "roc_auc": 0.8941846140947445,
+    "average_precision": 0.4956688432854202,
+    "precision_at_0_5": 0.5,
+    "recall_at_0_5": 0.5464684014869888
+  },
+  "feature_importances": [
+    {
+      "feature": "Age",
+      "importance": 0.14465010985434387
+    },
+    {
+      "feature": "Angeo person or not_1",
+      "importance": 0.1400382239803369
+    },
+    {
+      "feature": "Angeo person or not_0",
+      "importance": 0.13861152718831568
+    },
+    {
+      "feature": "Maximum Heart Rate Achieved",
+      "importance": 0.10985911005097636
+    },
+    {
+      "feature": "ST Depression (oldpeak)",
+      "importance": 0.07701217804006359
+    },
+    {
+      "feature": "Resting Blood Pressure",
+      "importance": 0.07265181968825386
+    },
+    {
+      "feature": "Total Cholesterol",
+      "importance": 0.06803505888956468
+    },
+    {
+      "feature": "Body Mass Index (BMI)",
+      "importance": 0.06095125094830229
+    },
+    {
+      "feature": "Number of Major Vessels",
+      "importance": 0.02395262000049914
+    },
+    {
+      "feature": "Exercise Induced Angina_1",
+      "importance": 0.011673844757257423
+    },
+    {
+      "feature": "Exercise Induced Angina_0",
+      "importance": 0.010678094517297683
+    },
+    {
+      "feature": "Sex_1",
+      "importance": 0.010232322326648908
+    },
+    {
+      "feature": "Sex_0",
+      "importance": 0.009631882744787726
+    },
+    {
+      "feature": "Smoking Status_0",
+      "importance": 0.009222207558108151
+    },
+    {
+      "feature": "Slope of ST Segment_0",
+      "importance": 0.008894426399347516
+    },
+    {
+      "feature": "Chest Pain Type_2",
+      "importance": 0.008825576216010135
+    },
+    {
+      "feature": "Slope of ST Segment_1",
+      "importance": 0.008318114682350894
+    },
+    {
+      "feature": "Thallium Stress Test Result (thal)_0",
+      "importance": 0.008139103922523384
+    },
+    {
+      "feature": "Fasting Blood Sugar",
+      "importance": 0.00803135285890347
+    },
+    {
+      "feature": "Chest Pain Type_3",
+      "importance": 0.008028812592204566
+    },
+    {
+      "feature": "Chest Pain Type_1",
+      "importance": 0.007588235598253822
+    },
+    {
+      "feature": "Resting ECG Results_0",
+      "importance": 0.007544763929375571
+    },
+    {
+      "feature": "Smoking Status_2",
+      "importance": 0.0073615530363080805
+    },
+    {
+      "feature": "Smoking Status_1",
+      "importance": 0.007350681091478881
+    },
+    {
+      "feature": "Resting ECG Results_1",
+      "importance": 0.006933065209591424
+    },
+    {
+      "feature": "Thallium Stress Test Result (thal)_1",
+      "importance": 0.006719420894657654
+    },
+    {
+      "feature": "Chest Pain Type_0",
+      "importance": 0.006131820085921764
+    },
+    {
+      "feature": "Slope of ST Segment_2",
+      "importance": 0.005201091757477893
+    },
+    {
+      "feature": "Thallium Stress Test Result (thal)_2",
+      "importance": 0.005145309179941547
+    },
+    {
+      "feature": "Resting ECG Results_2",
+      "importance": 0.002586422000897217
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+# =============================
+# 🧠 Project: Heart Disease Prediction using ML + LLM
+# Environment & Cache
+# =============================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# VSCode and IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache & logs
+.streamlit/
+logs/
+.cache/
+*.log
+
+# Model artifacts & checkpoints
+models/*.joblib
+models/*.pkl
+*.h5
+*.onnx
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+data/raw/
+data/temp/
+data/backup/
+
+# LangChain / Groq temporary files
+.langchain/
+.langchain.db
+outputs/
+responses/
+groq_cache/
+
+# Environment & credentials
+.env
+*.env
+.env.*
+secrets/
+config/*.json
+
+# Jupyter / Colab notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_checkpoints/
+
+# Reports / generated files
+reports/
+*.pdf
+*.docx
+*.txt
+*.html
+
+# Build & packaging
+build/
+dist/
+*.egg-info/
+*.spec
+
+# OS / Misc
+*.bak
+*.tmp
+*.swp
